@@ -1,0 +1,24 @@
+{
+  "name": "pdf-signature-reader",
+  "version": "1.4.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "signature",
+    "digital signature",
+    "node",
+    "nodejs",
+    "verify"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "ieee754": "^1.2.1",
+    "node-forge": "^1.3.1"
+  }
+}
