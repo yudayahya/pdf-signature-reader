@@ -1,7 +1,7 @@
 {
   "name": "pdf-signature-reader",
-  "version": "1.4.0",
-  "description": "",
+  "version": "1.4.2",
+  "description": "Verify the digital signature of the pdf",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,11 @@
     "verify"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudayahya/pdf-signature-reader.git"
+  },
   "dependencies": {
     "base64-js": "^1.5.1",
     "ieee754": "^1.2.1",
