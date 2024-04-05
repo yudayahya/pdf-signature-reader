@@ -1,6 +1,6 @@
 {
   "name": "pdf-signature-reader",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Verify the digital signature of the pdf",
   "main": "index.js",
   "scripts": {
