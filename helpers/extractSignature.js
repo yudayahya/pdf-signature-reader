@@ -29,8 +29,8 @@ const extractSignature = (pdf) => {
   const pdfBuffer = preparePDF(pdf);
 
   const { byteRanges } = getByteRange(pdfBuffer);
-  const lastIndex = byteRanges.length - 1;
-  const endOfByteRange = byteRanges[lastIndex][2] + byteRanges[lastIndex][3];
+  // const lastIndex = byteRanges.length - 1;
+  // const endOfByteRange = byteRanges[lastIndex][2] + byteRanges[lastIndex][3];
 
   // if (pdfBuffer.length > endOfByteRange) {
   //   throw new VerifyPDFError(
